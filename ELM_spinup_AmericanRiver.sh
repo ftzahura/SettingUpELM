@@ -11,7 +11,7 @@ CASE_DIR=~/E3SM/cime/scripts
 
 STOP_OPT=nyears
 STOP_NTM=10
-RESUB=0
+RESUB=9
 echo -e "\n---------------- E3SM Case: " $CASE_DIR/$CASE_NAM "----------------"
 echo -e "---------------- Period:" $RUN_YR_STR" ~ "$RUN_YR_END ",  " Total: $(($STOP_NTM*($RESUB+1))) $STOP_OPT "\n"
 
