@@ -1,7 +1,7 @@
 # SettingUpELM
 
 **Step 1:**
-CreateSurfdataDomainNetcdf.ipynb: creates surface and domain netcdfs for user defined resolution and area of interest from a coarse global domain and surface dataset.
+CreateSurfdataDomainNetcdf.ipynb: creates surface and domain netcdfs for user defined resolution and area of interest from a coarse global domain and surface dataset. This python notebook was generated following the MATLAB scripts by Gautam Bisht: https://github.com/bishtgautam/matlab-script-for-clm-sparse-grid/
 
 **Step 2:**
 Update_surfdata.ipynb: updates surface dataset generated using coarse resolution global surface dataset with high resolution (1km) data. 
