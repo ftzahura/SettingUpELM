@@ -13,6 +13,6 @@ ELM_spinup_AmericanRiver.sh batch script to submit job on NERSC using previously
 **Step4:**
 Plot_spinup_outputs.ipynb plots spinup results to check if the model becomes stable.
 Plot_ELM_outputs.ipynb example script to plot temporal and spatial outputs.
-Make_GIF.ipynb example script to genertae gif using time series spatial plots.
+Make_GIF.ipynb example script to generate gif using time series spatial plots.
 
 
