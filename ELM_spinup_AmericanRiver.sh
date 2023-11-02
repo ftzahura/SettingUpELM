@@ -61,7 +61,7 @@ cd ${CASE_DIR}/${CASE_NAM}
 echo -e "-- update: user_nl_elm --"
 cat >> user_nl_elm << EOF
 fsurdat = '/global/homes/f/fzahura/mygrids/surfdata_1175x1_sparse_grid_2012_American_update1k.nc'
-use_top_solar_rad = .true.
+#use_top_solar_rad = .true.
 EOF
 
 echo -e "-- update: datm.streams --"
