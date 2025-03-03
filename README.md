@@ -4,7 +4,7 @@
 CreateSurfdataDomainNetcdf.ipynb: creates surface and domain netcdfs for user defined resolution and area of interest from a coarse global domain and surface dataset. This python notebook was generated following the MATLAB scripts by Gautam Bisht: https://github.com/bishtgautam/matlab-script-for-clm-sparse-grid/
 
 **Step 2:**
-Update_surfdata.ipynb: updates surface dataset (generated in **Step 1** using coarse resolution global surface dataset) with high resolution (1km) data. 
+Update_surfdata.ipynb: updates surface dataset (generated in **Step 1** using coarse resolution global surface dataset) with high resolution (1km) data. (Optional, high res data needed)
 
 **Step 3:**
 Surf_Domain_insideWS.ipynb: creates surface/domain dataset within shapefile boundary using domain (generated in **Step1**) and updated surface dataset (generated in **Step 2**). 
